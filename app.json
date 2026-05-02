@@ -1,0 +1,10 @@
+{
+  "appName": "Inventory_System_with_Security",
+  "framework": "ASP.NET Core 8",
+  "security": {
+    "passwordHash": "bcrypt workFactor >= 10",
+    "piiEncryption": "AES-256 reversible",
+    "integrity": "SHA-256",
+    "auth": "JWT"
+  }
+}
